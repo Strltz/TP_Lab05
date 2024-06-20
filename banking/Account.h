@@ -1,10 +1,9 @@
 #pragma once
 class Account {
  public:
-  Account(int id, int balance);
-  Account();
-  virtual ~Account();
-
+   Account(int id, int balance);
+   Account();
+   virtual ~Account();
   // Virtual to test.
   virtual int GetBalance() const;
 
